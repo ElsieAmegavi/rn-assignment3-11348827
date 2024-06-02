@@ -6,11 +6,13 @@ const categories = [
     { id: '2', name: 'Study', tasks: 3, image: require('../../assets/young-woman-working-at-desk.png') },
     { id: '3', name: 'Code', tasks: 12, image: require('../../assets/young-woman-working-online.png') },
     { id: '4', name: 'Cook', tasks: 2, image: require('../../assets/young-woman-working-at-desk.png') },
-    { id: '5', name: 'Cook', tasks: 89, image: require('../../assets/young-woman-working-online.png') },
-    { id: '6', name: 'Cook', tasks: 37, image: require('../../assets/young-woman-working-at-desk.png') },
-    { id: '7', name: 'Cook', tasks: 8, image: require('../../assets/young-woman-working-online.png') },
-    { id: '8', name: 'Cook', tasks: 5, image: require('../../assets/young-woman-working-at-desk.png') },  
-  // Add more categories as needed
+    { id: '5', name: 'Read a Book', tasks: 10, image: require('../../assets/young-woman-working-online.png') },
+    { id: '6', name: 'Meditate', tasks: 9, image: require('../../assets/young-woman-working-at-desk.png') },
+    { id: '7', name: 'Quiet Time', tasks: 8, image: require('../../assets/young-woman-working-online.png') },
+    { id: '8', name: 'Socialize', tasks: 5, image: require('../../assets/young-woman-working-at-desk.png') },  
+    { id: '9', name: 'Write a Novel', tasks: 6, image: require('../../assets/young-woman-working-at-desk.png') },  
+    { id: '10', name: 'Do Laundry', tasks: 4, image: require('../../assets/young-woman-working-at-desk.png') },  
+
 ];
 
 const CategorySection = () => {
@@ -21,7 +23,7 @@ const CategorySection = () => {
           <Text style={styles.categoryTaskCount}>{`${item.tasks} Tasks`}</Text>
           <Image
             style={styles.categoryImage}
-            source={item.image} // Replace with category image
+            source={item.image} 
           />
         </View>
       </View>
@@ -72,7 +74,7 @@ const styles = StyleSheet.create({
     categoryImage: {
       width: 151,
       height: 132,
-      marginTop: 'auto', // Pushes the image to the bottom of the box
+      marginTop: 'auto', 
     },
 });
   

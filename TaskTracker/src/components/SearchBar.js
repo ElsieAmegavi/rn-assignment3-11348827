@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, TextInput, StyleSheet, TouchableOpacity, Image } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // Make sure to install @expo/vector-icons
+import { Ionicons } from '@expo/vector-icons'; 
 
 const SearchBar = () => {
   return (
@@ -15,7 +15,7 @@ const SearchBar = () => {
       </View>
       <TouchableOpacity>
         <Image
-          source={require('../../assets/filter-button.png')} // Replace with your settings icon image path
+          source={require('../../assets/filter-button.png')}
           style={styles.settingsIcon}
         />
       </TouchableOpacity>

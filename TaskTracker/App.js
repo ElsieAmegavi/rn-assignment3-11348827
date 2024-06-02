@@ -3,6 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import Header from './src/components/Header';
 import SearchBar from './src/components/SearchBar';
 import CategorySection from './src/components/CategorySection';
+import OngoingTasksSection from './src/components/OngoingTasksSection';
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <SearchBar />
       <CategorySection />
+      <OngoingTasksSection />
     </View>
   );
 };

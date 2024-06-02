@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
       paddingBottom: 20,
     },
     headerContainer: {
-      marginBottom: 20, // Add margin bottom for spacing between Header and SearchBar
+      marginBottom: 20, 
     },
     headerText: {
       fontSize: 32,
