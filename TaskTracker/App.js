@@ -2,6 +2,8 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import Header from './src/components/Header';
 import SearchBar from './src/components/SearchBar';
+import CategorySection from './src/components/CategorySection';
+
 
 
 const App = () => {
@@ -9,6 +11,7 @@ const App = () => {
     <View style={styles.container}>
       <Header />
       <SearchBar />
+      <CategorySection />
     </View>
   );
 };
